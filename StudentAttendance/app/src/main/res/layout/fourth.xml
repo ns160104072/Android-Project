@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.junaeid.studentattendance.Fourth">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/info"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        android:text="Student Information"
+        android:textSize="24dp"
+        android:textStyle="italic"
+        android:background="#b2daf9"
+        android:gravity="center"
+        android:textColor="#0433f1"
+        android:layout_width="match_parent"
+        android:layout_height="30dp">
+    </TextView>
+    <TextView
+        android:id="@+id/sec"
+        android:textSize="18dp"
+        android:textStyle="italic"
+        android:background="#b2daf9"
+        android:gravity="right"
+        android:layout_marginTop="50dp"
+        android:layout_below="@+id/info"
+        android:layout_marginLeft="20dp"
+        android:text="Section :"
+        android:layout_width="100dp"
+        android:layout_height="30dp" />
+    <TextView
+        android:id="@+id/dept"
+        android:layout_below="@+id/sec"
+        android:textSize="18dp"
+        android:textStyle="italic"
+        android:background="#b2daf9"
+        android:gravity="right"
+        android:layout_marginTop="37dp"
+        android:layout_marginLeft="15dp"
+        android:text="Department :"
+        android:layout_width="105dp"
+        android:layout_height="30dp" />
+    <TextView
+        android:id="@+id/roll"
+        android:layout_below="@+id/dept"
+        android:layout_marginTop="37dp"
+        android:layout_marginLeft="20dp"
+        android:text="Roll :"
+        android:textSize="18dp"
+        android:textStyle="italic"
+        android:background="#b2daf9"
+        android:gravity="right"
+        android:layout_width="100dp"
+        android:layout_height="30dp" />
+    <TextView
+        android:id="@+id/code"
+        android:layout_below="@+id/roll"
+        android:layout_marginTop="60dp"
+        android:layout_marginLeft="20dp"
+        android:text="Code :"
+        android:textSize="18dp"
+        android:textStyle="italic"
+        android:background="#b2daf9"
+        android:gravity="right"
+        android:layout_width="100dp"
+        android:layout_height="30dp" />
+    <EditText
+        android:id="@+id/sec2"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:textSize="18dp"
+        android:hint="Enter Section"
+        android:layout_below="@+id/info"
+        android:layout_toRightOf="@+id/sec"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="20dp"
+        />
+    <EditText
+        android:id="@+id/dept2"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:textSize="18dp"
+        android:hint="Enter Department"
+        android:layout_below="@+id/sec2"
+        android:layout_toRightOf="@+id/dept"
+        android:layout_marginTop="28dp"
+        android:layout_marginLeft="20dp"
+        />
+    <EditText
+        android:id="@+id/roll2"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:textSize="18dp"
+        android:hint="Enter Roll"
+        android:layout_below="@+id/dept2"
+        android:layout_toRightOf="@+id/roll"
+        android:layout_marginTop="27dp"
+        android:layout_marginLeft="20dp"
+        />
+    <EditText
+        android:id="@+id/code2"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:textSize="18dp"
+        android:hint="Enter Code"
+        android:layout_below="@+id/roll2"
+        android:layout_toRightOf="@+id/roll"
+        android:layout_marginTop="47dp"
+        android:layout_marginLeft="20dp"
+        />
+    <Button
+        android:id="@+id/btngive"
+        android:layout_below="@+id/code"
+        android:text="Give"
+        android:textSize="28dp"
+        android:textStyle="italic"
+        android:background="#a1a1a1"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="50dp"
+        android:layout_width="100dp"
+        android:layout_height="40dp" />
+    <Button
+        android:id="@+id/btndone"
+        android:layout_below="@+id/code"
+        android:text="Done"
+        android:textSize="28dp"
+        android:textStyle="italic"
+        android:background="#a1a1a1"
+        android:layout_marginLeft="210dp"
+        android:layout_marginTop="50dp"
+        android:layout_width="100dp"
+        android:layout_height="40dp" />
+    </RelativeLayout>
+</ScrollView>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.user.demo.MainActivity"
+    tools:layout_editor_absoluteY="81dp">
+    <TextView
+        android:id="@+id/ms"
+        android:layout_width="100dp"
+        android:layout_height="80dp"
+        android:text="message :"
+        android:textSize="20dp"
+
+        >
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/ms2"
+        android:layout_width="100dp"
+        android:layout_height="80dp"
+        android:text="message2:"
+        android:textSize="20dp"
+        android:layout_below="@+id/ms" />
+    <EditText
+        android:id="@+id/f1"
+        android:layout_width="100dp"
+        android:layout_height="80dp"
+        android:layout_toRightOf="@+id/ms"/>
+    <TextView
+        android:id="@+id/set"
+        android:layout_width="200dp"
+        android:layout_height="80dp"
+        android:layout_below="@+id/f1"
+        android:layout_toRightOf="@+id/ms2"/>
+    <Button
+        android:id="@+id/won"
+        android:layout_width="80dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/set"
+        android:text="wifi on"/>
+    <Button
+        android:id="@+id/hon"
+        android:layout_width="80dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/set"
+        android:layout_toRightOf="@id/won"
+        android:text="hot on"/>
+    <Button
+        android:id="@+id/send"
+        android:layout_width="80dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/set"
+        android:layout_toRightOf="@id/hon"
+        android:text="send"/>
+    <Button
+        android:id="@+id/wof"
+        android:layout_width="80dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/won"
+        android:text="wifi of"/>
+    <Button
+        android:id="@+id/hof"
+        android:layout_width="80dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/won"
+        android:layout_toRightOf="@id/wof"
+        android:text="hot of"/>
+    <TextView
+        android:id="@+id/msg"
+        android:layout_width="200dp"
+        android:layout_height="80dp"
+        android:layout_below="@+id/wof"
+        />
+
+
+</RelativeLayout>
